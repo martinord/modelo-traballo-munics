@@ -5,69 +5,59 @@
 \usepackage{hyperref}
 \usepackage[normalem]{ulem}
 
-%%%% ADDING SUB-SUBSECTION
+%%%% Configuration: adding subsubsection command  %%%%
 \makeatletter
 \renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
             {-2.5ex\@plus -1ex \@minus -.25ex}%
             {1.25ex \@plus .25ex}%
             {\normalfont\normalsize\bfseries}}
 \makeatother
-\setcounter{secnumdepth}{4} % how many sectioning levels to assign numbers to
-\setcounter{tocdepth}{4}    % how many sectioning levels to show in ToC
-\makeatletter
+\setcounter{secnumdepth}{4} % sectioning levels to assign numbers to
+\setcounter{tocdepth}{4}    % sectioning levels to show in ToC
 
 
 \begin{document}
+\makeatletter	% use variables title and subtitle
+
+%------------------------------------------------------
+%	EDIT THIS
+%------------------------------------------------------
 
 \title{Modelo de traballo}
 
 \def \subtitle {Subtítulo}
 
+\def \modulename {Nome Asignatura}
+
 \author{martinord}
 
-\date{Universidade da Coruña- \today}
+\date{Universidade da Coruña - \today}
 
+%------------------------------------------------------
 
 \begin{titlepage}
 
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % horizontal lines
 
 \center % Center everything on the page
  
 %----------------------------------------------------------------------------------------
-%	HEADING SECTIONS
-%----------------------------------------------------------------------------------------
+ 
+\textsc{\Large \modulename}\\[1cm]
 
-\textsc{\Large Nome Asignatura}\\[1cm]
-
-%----------------------------------------------------------------------------------------
-%	LOGO SECTION
-%----------------------------------------------------------------------------------------
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.2\textwidth]{logo.png}
 \end{figure}
 
-%----------------------------------------------------------------------------------------
-%	TITLE SECTION
-%----------------------------------------------------------------------------------------
-
-\HRule \\[0.4cm]
-{ \huge \bfseries \@title}\\[0.5cm]
-{ \Large \subtitle}\\[0.3cm]
+\HRule \\[0.5cm]
+{ \huge \bfseries \@title}\\[0.3cm]
+{ \Large \subtitle}\\[0.4cm]
 \HRule \\[1.5cm]
  
-%----------------------------------------------------------------------------------------
-%	AUTHOR SECTION
-%----------------------------------------------------------------------------------------
+\@author \\[5cm]	% if several authors, change this length
 
-	\@author \\[3cm]
-
-%----------------------------------------------------------------------------------------
-%	DATE SECTION
-%----------------------------------------------------------------------------------------
-
-{\large \today}\\[2cm] 
+{\large \@date}\\ 
  
 %----------------------------------------------------------------------------------------
 

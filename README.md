@@ -2,11 +2,20 @@
 ## Instrucións
 ### Adaptar o modelo
 
-Cambiar autor e título, ademais de engadir os inputs necesarios de novos arquivos creados. Cada vez que se modifique a bibliografía, hai que recompilar todo.
+Cambiar autor, título e nome de asignatura (ver campo `EDIT THIS`), ademais de engadir os inputs necesarios de novos arquivos creados. Cada vez que se modifique a [bibliografía](references.bib), hai que recompilar todo.
+
+Consellos:
+- Se hai varios autores usar o seguinte no campo `author`:
+
+```
+\author{martinord\\ author2\\
+	author3\\ author4}
+```
+
 
 ### Compilar
 
-Compilar con BibLaTeX e XeLaTeX, para que inclúa as referencias.
+Compilar con *BibLaTeX* e *XeLaTeX*, para que inclúa as referencias.
 
 ## Aclaración
 
