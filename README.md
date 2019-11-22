@@ -1,13 +1,16 @@
 # Modelo para traballos FIC
 ## Instrucións
-## Adaptar o modelo
+### Adaptar o modelo
 
-Cambiar autor e título tanto nos apartados de metadatos, como no título mostrado na páxina.
+Cambiar autor e título, ademais de engadir os inputs necesarios de novos arquivos creados. Cada vez que se modifique a bibliografía, hai que recompilar todo.
 
-## Compilar
+### Compilar
 
 Compilar con BibLaTeX e XeLaTeX, para que inclúa as referencias.
 
+## Aclaración
+
+Este modelo non é de ningunha forma un modelo oficial da facultade, foi creado por iniciativa propia e co obxectivo de servir de ferramenta para a creación de traballos e memorias en LaTeX. En canto ao TFG, existe un modelo oficial no repositorio da facultade.
 
 ## Créditos
 
