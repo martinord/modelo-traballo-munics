@@ -14,16 +14,15 @@
 \makeatother
 \setcounter{secnumdepth}{4} % how many sectioning levels to assign numbers to
 \setcounter{tocdepth}{4}    % how many sectioning levels to show in ToC
-
+\makeatletter
 
 
 \begin{document}
 
-\title{%
-	Modelo de traballo\\
-	\large Modelo en Latex\\}
+\title{Modelo de traballo\\[0.5cm]
+		\Large Subtítulo}
 
-\author{Martiño Rivera Dourado}
+\author{martinord}
 
 \date{Universidade da Coruña- \today}
 
@@ -53,14 +52,14 @@
 %----------------------------------------------------------------------------------------
 
 \HRule \\[0.4cm]
-{ \huge \bfseries Modelo de traballo}\\[0.4cm]
+{ \huge \bfseries \@title}\\[0.4cm]
 \HRule \\[1.5cm]
  
 %----------------------------------------------------------------------------------------
 %	AUTHOR SECTION
 %----------------------------------------------------------------------------------------
 
-	Martiño Rivera Dourado\\[3cm]
+	\@author \\[3cm]
 
 %----------------------------------------------------------------------------------------
 %	DATE SECTION
