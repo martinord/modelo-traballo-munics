@@ -1,4 +1,4 @@
-# Modelo para traballos FIC
+# Modelo para traballos MUNICS
 ## Instrucións
 ### Adaptar o modelo
 
@@ -19,10 +19,10 @@ Compilar con *BibLaTeX* e *XeLaTeX*, para que inclúa as referencias.
 
 ## Aclaración
 
-Este modelo non é de ningunha forma un modelo oficial da facultade, foi creado por iniciativa propia e co obxectivo de servir de ferramenta para a creación de traballos e memorias en LaTeX. En canto ao TFG, existe un modelo oficial no repositorio da facultade.
+Este modelo non é de ningunha forma un modelo oficial do máster, foi creado por iniciativa propia e co obxectivo de servir de ferramenta para a creación de traballos e memorias en LaTeX.
 
 ## Créditos
 
-Source code can be found on [github](https://github.com/martinord/modelo-traballo-fic), licenced under [GPL-3.0](https://opensource.org/licenses/GPL-3.0).
+Source code can be found on [github](https://github.com/martinord/modelo-traballo-munics), licenced under [GPL-3.0](https://opensource.org/licenses/GPL-3.0).
 
 Developed by [Martiño Rivera](https://github.com/martinord)

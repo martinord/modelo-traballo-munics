@@ -1,9 +1,12 @@
-\documentclass[12pt]{article}
+\documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[galician]{babel}
 \usepackage{graphicx}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage[normalem]{ulem}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{blindtext}
+
 
 %%%% Configuration: adding subsubsection command  %%%%
 \makeatletter
@@ -37,6 +40,21 @@
 
 \begin{titlepage}
 
+\begin{figure}[ht]
+        \centering
+        \begin{minipage}[t]{.45\linewidth}
+       		\centering
+            \includegraphics[width=4cm]{udclogo.pdf}
+        \end{minipage}
+        \hspace{\fill}
+        \begin{minipage}[t]{.45\linewidth}
+        	\centering
+            \includegraphics[width=3cm]{uvigologo.pdf}
+        \end{minipage}
+\end{figure}
+
+\vfill
+
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % horizontal lines
 
 \center % Center everything on the page
@@ -47,15 +65,17 @@
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.2\textwidth]{logo.png}
+	\includegraphics[width=0.3\textwidth]{logo.png}
 \end{figure}
 
-\HRule \\[0.5cm]
+\vfill
+
+\HRule \\[0.6cm]
 { \huge \bfseries \@title}\\[0.3cm]
 { \Large \subtitle}\\[0.4cm]
 \HRule \\[1.5cm]
  
-\@author \\[5cm]	% if several authors, change this length
+\@author \\[8cm]	% if several authors, change this length
 
 {\large \@date}\\ 
  
